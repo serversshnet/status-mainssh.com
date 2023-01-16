@@ -315,15 +315,15 @@ status-website:
   # Uncomment the `baseUrl` line if you don't have a custom domain and add your repo name there
   cname: status.mainssh.com
   # baseUrl: /status-mainssh.com
-  logoUrl: https://raw.githubusercontent.com/upptime/upptime.js.org/master/static/img/icon.svg
+  logoUrl: https://mainssh.com/assets/img/logo.png
   name: Upptime
   introTitle: "Monitor server status for services on mainssh"
   introMessage: This is a server status page that uses real-time data  
   navbar:
-    - title: Uptime
-      href: /
+    - title: Monitor Server Mainssh.com
+      href: https://mainssh.com
     - title: Home
-      href: https://status.mainssh.com
+      href: https://mainssh.com
   theme: light
   metaTags:
     - name: "color-scheme"
