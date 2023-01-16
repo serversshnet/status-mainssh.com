@@ -3,32 +3,312 @@ owner: serversshne # Your GitHub organization or username, where this repository
 repo: status-mainssh.com # The name of this repository
 
 sites:
-  - name: Google
-    url: https://www.google.com
-  - name: Wikipedia
-    url: https://en.wikipedia.org
-  - name: Hacker News
-    url: https://news.ycombinator.com
-  - name: Test Broken Site
-    url: https://thissitedoesnotexist.koj.co
-  - name: dedns.mainssh.xyz
-    check: "tcp  -ping"
-    urlk: dedns.mainssh.xyz
-  - name: usdns.mainssh.xyz
-    check: "tcp  -ping"
-    urlk: usdns.mainssh.xyz
-  - name: frdns.mainssh.xyz
-    check: "tcp  -ping"
-    urlk: frdns.mainssh.xyz
-  - name: cadns.mainssh.xyz
-    check: "tcp  -ping"
-    urlk: cadns.mainssh.xyz
-  - name: sg2dns.mainssh.xyz
-    check: "tcp  -ping"
-    urlk: sg2dns.mainssh.xyz
-  - name: sg1dns.mainssh.xyz
-    check: "tcp  -ping"
-    urlk: sg1dns.mainssh.xyz
+ - name: dedns.mainssh.xyz
+   check: "tcp-ping"
+   url: dedns.mainssh.xyz
+ - name: usdns.mainssh.xyz
+   check: "tcp-ping"
+   url: usdns.mainssh.xyz
+ - name: frdns.mainssh.xyz
+   check: "tcp-ping"
+   url: frdns.mainssh.xyz
+ - name: cadns.mainssh.xyz
+   check: "tcp-ping"
+   url: cadns.mainssh.xyz
+ - name: sg2dns.mainssh.xyz
+   check: "tcp-ping"
+   url: sg2dns.mainssh.xyz
+ - name: sg1dns.mainssh.xyz
+   check: "tcp-ping"
+   url: sg1dns.mainssh.xyz
+ - name: gewg.mainssh.com
+   check: "tcp-ping"
+   url: gewg.mainssh.com
+ - name: cawg.mainssh.com
+   check: "tcp-ping"
+   url: cawg.mainssh.com
+ - name: sg2wg.mainssh.com
+   check: "tcp-ping"
+   url: sg2wg.mainssh.com
+ - name: sg1wg.mainssh.com
+   check: "tcp-ping"
+   url: sg1wg.mainssh.com
+ - name: idwg.mainssh.com
+   check: "tcp-ping"
+   url: idwg.mainssh.com
+ - name: frwg.mainssh.com
+   check: "tcp-ping"
+   url: frwg.mainssh.com
+ - name: usx.mainssh.com
+   check: "tcp-ping"
+   url: usx.mainssh.com
+ - name: ustgrpc.mainssh.xyz
+   check: "tcp-ping"
+   url: ustgrpc.mainssh.xyz
+ - name: ustws.mainssh.xyz
+   check: "tcp-ping"
+   url: ustws.mainssh.xyz
+ - name: ustcp.mainssh.xyz
+   check: "tcp-ping"
+   url: ustcp.mainssh.xyz
+ - name: uslgrpc.mainssh.xyz
+   check: "tcp-ping"
+   url: uslgrpc.mainssh.xyz
+ - name: uslws.mainssh.xyz
+   check: "tcp-ping"
+   url: uslws.mainssh.xyz
+ - name: usmws.mainssh.xyz
+   check: "tcp-ping"
+   url: usmws.mainssh.xyz
+ - name: usmgrpc.mainssh.xyz
+   check: "tcp-ping"
+   url: usmgrpc.mainssh.xyz
+ - name: cam.mainssh.com
+   check: "tcp-ping"
+   url: cam.mainssh.com
+ - name: frm.mainssh.com
+   check: "tcp-ping"
+   url: frm.mainssh.com
+ - name: dem.mainssh.com
+   check: "tcp-ping"
+   url: dem.mainssh.com
+ - name: sgx3.mainssh.com
+   check: "tcp-ping"
+   url: sgx3.mainssh.com
+ - name: sgx4.mainssh.com
+   check: "tcp-ping"
+   url: sgx4.mainssh.com
+ - name: sgx5.mainssh.com
+   check: "tcp-ping"
+   url: sgx5.mainssh.com
+ - name: sgx5.mainssh.com
+   check: "tcp-ping"
+   url: sgx5.mainssh.com
+ - name: sgx4.mainssh.com
+   check: "tcp-ping"
+   url: sgx4.mainssh.com
+ - name: sgm4.mainssh.com
+   check: "tcp-ping"
+   url: sgm4.mainssh.com
+ - name: uklws.mainssh.xyz
+   check: "tcp-ping"
+   url: uklws.mainssh.xyz
+ - name: hklws.mainssh.xyz
+   check: "tcp-ping"
+   url: hklws.mainssh.xyz
+ - name: gelws.mainssh.xyz
+   check: "tcp-ping"
+   url: gelws.mainssh.xyz
+ - name: frlws.mainssh.xyz
+   check: "tcp-ping"
+   url: frlws.mainssh.xyz
+ - name: idlws.mainssh.xyz
+   check: "tcp-ping"
+   url: idlws.mainssh.xyz
+ - name: sg3lws.mainssh.xyz
+   check: "tcp-ping"
+   url: sg3lws.mainssh.xyz
+ - name: sg2lws.mainssh.xyz
+   check: "tcp-ping"
+   url: sg2lws.mainssh.xyz
+ - name: sglws.mainssh.xyz
+   check: "tcp-ping"
+   url: sglws.mainssh.xyz
+ - name: calws.mainssh.xyz
+   check: "tcp-ping"
+   url: calws.mainssh.xyz
+ - name: sgx3.mainssh.com
+   check: "tcp-ping"
+   url: sgx3.mainssh.com
+ - name: sgx2.mainssh.com
+   check: "tcp-ping"
+   url: sgx2.mainssh.com
+ - name: sgx1.mainssh.com
+   check: "tcp-ping"
+   url: sgx1.mainssh.com
+ - name: getgrpc.mainssh.xyz
+   check: "tcp-ping"
+   url: getgrpc.mainssh.xyz
+ - name: getws.mainssh.xyz
+   check: "tcp-ping"
+   url: getws.mainssh.xyz
+ - name: getcp.mainssh.xyz
+   check: "tcp-ping"
+   url: getcp.mainssh.xyz
+ - name: gemws.mainssh.xyz
+   check: "tcp-ping"
+   url: gemws.mainssh.xyz
+ - name: gelgrpc.mainssh.xyz
+   check: "tcp-ping"
+   url: gelgrpc.mainssh.xyz
+ - name: gemgrpc.mainssh.xyz
+   check: "tcp-ping"
+   url: gemgrpc.mainssh.xyz
+ - name: uktgrpc.mainssh.xyz
+   check: "tcp-ping"
+   url: uktgrpc.mainssh.xyz
+ - name: uktws.mainssh.xyz
+   check: "tcp-ping"
+   url: uktws.mainssh.xyz
+ - name: uktcp.mainssh.xyz
+   check: "tcp-ping"
+   url: uktcp.mainssh.xyz
+ - name: ukmws.mainssh.xyz
+   check: "tcp-ping"
+   url: ukmws.mainssh.xyz
+ - name: uklgrpc.mainssh.xyz
+   check: "tcp-ping"
+   url: uklgrpc.mainssh.xyz
+ - name: ukmgrpc.mainssh.xyz
+   check: "tcp-ping"
+   url: ukmgrpc.mainssh.xyz
+ - name: catgrpc.mainssh.xyz
+   check: "tcp-ping"
+   url: catgrpc.mainssh.xyz
+ - name: catws.mainssh.xyz
+   check: "tcp-ping"
+   url: catws.mainssh.xyz
+ - name: catcp.mainssh.xyz
+   check: "tcp-ping"
+   url: catcp.mainssh.xyz
+ - name: camws.mainssh.xyz
+   check: "tcp-ping"
+   url: camws.mainssh.xyz
+ - name: calgrpc.mainssh.xyz
+   check: "tcp-ping"
+   url: calgrpc.mainssh.xyz
+ - name: camgrpc.mainssh.xyz
+   check: "tcp-ping"
+   url: camgrpc.mainssh.xyz
+ - name: frtgrpc.mainssh.xyz
+   check: "tcp-ping"
+   url: frtgrpc.mainssh.xyz
+ - name: frtws.mainssh.xyz
+   check: "tcp-ping"
+   url: frtws.mainssh.xyz
+ - name: frtcp.mainssh.xyz
+   check: "tcp-ping"
+   url: frtcp.mainssh.xyz
+ - name: frmws.mainssh.xyz
+   check: "tcp-ping"
+   url: frmws.mainssh.xyz
+ - name: frlgrpc.mainssh.xyz
+   check: "tcp-ping"
+   url: frlgrpc.mainssh.xyz
+ - name: frmgrpc.mainssh.xyz
+   check: "tcp-ping"
+   url: frmgrpc.mainssh.xyz
+ - name: ukm.mainssh.com
+   check: "tcp-ping"
+   url: ukm.mainssh.com
+ - name: dem.mainssh.com
+   check: "tcp-ping"
+   url: dem.mainssh.com
+ - name: frm.mainssh.com
+   check: "tcp-ping"
+   url: frm.mainssh.com
+ - name: cam.mainssh.com
+   check: "tcp-ping"
+   url: cam.mainssh.com
+ - name: sgm3.mainssh.com
+   check: "tcp-ping"
+   url: sgm3.mainssh.com
+ - name: sgm2.mainssh.com
+   check: "tcp-ping"
+   url: sgm2.mainssh.com
+ - name: sgm1.mainssh.com
+   check: "tcp-ping"
+   url: sgm1.mainssh.com
+ - name: hktgrpc.mainssh.xyz
+   check: "tcp-ping"
+   url: hktgrpc.mainssh.xyz
+ - name: hktws.mainssh.xyz
+   check: "tcp-ping"
+   url: hktws.mainssh.xyz
+ - name: hktcp.mainssh.xyz
+   check: "tcp-ping"
+   url: hktcp.mainssh.xyz
+ - name: hklgrpc.mainssh.xyz
+   check: "tcp-ping"
+   url: hklgrpc.mainssh.xyz
+ - name: hkmgrpc.mainssh.xyz
+   check: "tcp-ping"
+   url: hkmgrpc.mainssh.xyz
+ - name: hkmws.mainssh.xyz
+   check: "tcp-ping"
+   url: hkmws.mainssh.xyz
+ - name: sg3tgrpc.mainssh.xyz
+   check: "tcp-ping"
+   url: sg3tgrpc.mainssh.xyz
+ - name: sg2tgrpc.mainssh.xyz
+   check: "tcp-ping"
+   url: sg2tgrpc.mainssh.xyz
+ - name: sg3tws.mainssh.xyz
+   check: "tcp-ping"
+   url: sg3tws.mainssh.xyz
+ - name: sg2tws.mainssh.xyz
+   check: "tcp-ping"
+   url: sg2tws.mainssh.xyz
+ - name: sg3lgrpc.mainssh.xyz
+   check: "tcp-ping"
+   url: sg3lgrpc.mainssh.xyz
+ - name: sg2lgrpc.mainssh.xyz
+   check: "tcp-ping"
+   url: sg2lgrpc.mainssh.xyz
+ - name: sg3mws.mainssh.xyz
+   check: "tcp-ping"
+   url: sg3mws.mainssh.xyz
+ - name: sg2mws.mainssh.xyz
+   check: "tcp-ping"
+   url: sg2mws.mainssh.xyz
+ - name: sg3tcp.mainssh.xyz
+   check: "tcp-ping"
+   url: sg3tcp.mainssh.xyz
+ - name: sg2tcp.mainssh.xyz
+   check: "tcp-ping"
+   url: sg2tcp.mainssh.xyz
+ - name: sg3mgrpc.mainssh.xyz
+   check: "tcp-ping"
+   url: sg3mgrpc.mainssh.xyz
+ - name: sg2mgrpc.mainssh.xyz
+   check: "tcp-ping"
+   url: sg2mgrpc.mainssh.xyz
+ - name: idtgrpc.mainssh.xyz
+   check: "tcp-ping"
+   url: idtgrpc.mainssh.xyz
+ - name: idtws.mainssh.xyz
+   check: "tcp-ping"
+   url: idtws.mainssh.xyz
+ - name: idtcp.mainssh.xyz
+   check: "tcp-ping"
+   url: idtcp.mainssh.xyz
+ - name: idlgrpc.mainssh.xyz
+   check: "tcp-ping"
+   url: idlgrpc.mainssh.xyz
+ - name: idmgrpc.mainssh.xyz
+   check: "tcp-ping"
+   url: idmgrpc.mainssh.xyz
+ - name: idmws.mainssh.xyz
+   check: "tcp-ping"
+   url: idmws.mainssh.xyz
+ - name: sgtws.mainssh.xyz
+   check: "tcp-ping"
+   url: sgtws.mainssh.xyz
+ - name: sglgrpc.mainssh.xyz
+   check: "tcp-ping"
+   url: sglgrpc.mainssh.xyz
+ - name: sgmws.mainssh.xyz
+   check: "tcp-ping"
+   url: sgmws.mainssh.xyz
+ - name: sgmgrpc.mainssh.xyz
+   check: "tcp-ping"
+   url: sgmgrpc.mainssh.xyz
+ - name: sgtgrpc.mainssh.xyz
+   check: "tcp-ping"
+   url: sgtgrpc.mainssh.xyz
+ - name: sgtcp.mainssh.xyz
+   check: "tcp-ping"
+   url: sgtcp.mainssh.xyz
 
 status-website:
   # Add your custom domain name, or remove the `cname` line if you don't have a domain
