@@ -1,6 +1,6 @@
 # Change these first
-owner: upptime # Your GitHub organization or username, where this repository lives
-repo: upptime # The name of this repository
+owner: serversshne # Your GitHub organization or username, where this repository lives
+repo: status-mainssh.com # The name of this repository
 
 sites:
   - name: Google
@@ -11,6 +11,24 @@ sites:
     url: https://news.ycombinator.com
   - name: Test Broken Site
     url: https://thissitedoesnotexist.koj.co
+  - name: dedns.mainssh.xyz
+    check: "tcp  -ping"
+    urlk: dedns.mainssh.xyz
+  - name: usdns.mainssh.xyz
+    check: "tcp  -ping"
+    urlk: usdns.mainssh.xyz
+  - name: frdns.mainssh.xyz
+    check: "tcp  -ping"
+    urlk: frdns.mainssh.xyz
+  - name: cadns.mainssh.xyz
+    check: "tcp  -ping"
+    urlk: cadns.mainssh.xyz
+  - name: sg2dns.mainssh.xyz
+    check: "tcp  -ping"
+    urlk: sg2dns.mainssh.xyz
+  - name: sg1dns.mainssh.xyz
+    check: "tcp  -ping"
+    urlk: sg1dns.mainssh.xyz
 
 status-website:
   # Add your custom domain name, or remove the `cname` line if you don't have a domain
@@ -19,13 +37,27 @@ status-website:
   # baseUrl: /your-repo-name
   logoUrl: https://raw.githubusercontent.com/upptime/upptime.js.org/master/static/img/icon.svg
   name: Upptime
-  introTitle: "**Upptime** is the open-source uptime monitor and status page, powered entirely by GitHub."
-  introMessage: This is a sample status page which uses **real-time** data from our [GitHub repository](https://github.com/upptime/upptime). No server required — just GitHub Actions, Issues, and Pages. [**Get your own for free**](https://github.com/upptime/upptime)
+  introTitle: "Monitor server status for services on jagoanssh"
+  introMessage: This is a server status page that uses real-time data  
   navbar:
-    - title: Status
+    - title: Uptime
       href: /
-    - title: GitHub
-      href: https://github.com/$OWNER/$REPO
-
+    - title: Home
+      href: https://status.mainssh.com
+  theme: light
+  metaTags:
+    - name: "color-scheme"
+      content: "dark light"
+    - name: "robots"
+      content: "noindex"
+  
 # Upptime also supports notifications, assigning issues, and more
 # See https://upptime.js.org/docs/configuration
+workflowSchedule:
+  graphs: "0 0 * * *"
+  responseTime: "0 23 * * *"
+  staticSite: "0 1 * * *"
+  summary: "0 0 * * *"
+  updateTemplate: "0 0 * * *"
+  updates: "0 3 * * *"
+  uptime: "*/5 * * * *"
