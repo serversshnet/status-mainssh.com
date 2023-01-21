@@ -556,7 +556,7 @@
     "timeMonth": 0,
     "timeYear": 0,
     "dailyMinutesDown": {
-      "2023-01-21": 71,
+      "2023-01-21": 1024,
       "2023-01-20": 1440,
       "2023-01-19": 1440,
       "2023-01-18": 1440,
@@ -1253,18 +1253,20 @@
     "url": "sgm3.mainssh.com",
     "icon": "https://icons.duckduckgo.com/ip3/null.ico",
     "slug": "sgm3-mainssh-com",
-    "status": "up",
-    "uptime": "100.00%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "100.00%",
-    "uptimeYear": "100.00%",
+    "status": "down",
+    "uptime": "99.91%",
+    "uptimeDay": "99.51%",
+    "uptimeWeek": "99.91%",
+    "uptimeMonth": "99.91%",
+    "uptimeYear": "99.91%",
     "time": 213,
     "timeDay": 233,
     "timeWeek": 213,
     "timeMonth": 213,
     "timeYear": 213,
-    "dailyMinutesDown": {}
+    "dailyMinutesDown": {
+      "2023-01-21": 7
+    }
   },
   {
     "name": "sgm2.mainssh.com",
@@ -1319,7 +1321,7 @@
     "timeMonth": 0,
     "timeYear": 0,
     "dailyMinutesDown": {
-      "2023-01-21": 71,
+      "2023-01-21": 1024,
       "2023-01-20": 1440,
       "2023-01-19": 1440,
       "2023-01-18": 1440,
@@ -1344,7 +1346,7 @@
     "timeMonth": 0,
     "timeYear": 0,
     "dailyMinutesDown": {
-      "2023-01-21": 71,
+      "2023-01-21": 1024,
       "2023-01-20": 1440,
       "2023-01-19": 1440,
       "2023-01-18": 1440,
@@ -1369,7 +1371,7 @@
     "timeMonth": 0,
     "timeYear": 0,
     "dailyMinutesDown": {
-      "2023-01-21": 71,
+      "2023-01-21": 1024,
       "2023-01-20": 1440,
       "2023-01-19": 1440,
       "2023-01-18": 1440,
@@ -1394,7 +1396,7 @@
     "timeMonth": 0,
     "timeYear": 0,
     "dailyMinutesDown": {
-      "2023-01-21": 71,
+      "2023-01-21": 1024,
       "2023-01-20": 1440,
       "2023-01-19": 1440,
       "2023-01-18": 1440,
@@ -1408,11 +1410,11 @@
     "icon": "https://icons.duckduckgo.com/ip3/null.ico",
     "slug": "hkmgrpc-mainssh-xyz",
     "status": "up",
-    "uptime": "71.06%",
+    "uptime": "74.69%",
     "uptimeDay": "100.00%",
-    "uptimeWeek": "71.06%",
-    "uptimeMonth": "71.06%",
-    "uptimeYear": "71.06%",
+    "uptimeWeek": "74.69%",
+    "uptimeMonth": "74.69%",
+    "uptimeYear": "74.69%",
     "time": 8,
     "timeDay": 4,
     "timeWeek": 8,
@@ -1440,7 +1442,7 @@
     "timeMonth": 0,
     "timeYear": 0,
     "dailyMinutesDown": {
-      "2023-01-21": 71,
+      "2023-01-21": 1024,
       "2023-01-20": 1440,
       "2023-01-19": 1440,
       "2023-01-18": 1440,
