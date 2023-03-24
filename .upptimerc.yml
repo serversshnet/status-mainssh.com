@@ -312,7 +312,7 @@ sites:
 
 status-website:
  customHeadHtml: "<meta charset=\"UTF-8\"><another-tag />"
- customBodyHtml: "<!---- ADS ----> "
+ customBodyHtml: "<h2>Hallo</h2>"
   # Add your custom domain name, or remove the `cname` line if you don't have a domain
   # Uncomment the `baseUrl` line if you don't have a custom domain and add your repo name there
   cname: status.mainssh.com
