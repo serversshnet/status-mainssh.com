@@ -311,22 +311,8 @@ sites:
    url: sgtcp.mainssh.xyz
 
 status-website:
- customHeadHtml: "<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5457774416106917" crossorigin="anonymous" type="055a2e7ac553757db4acb38e-text/javascript"></script>"
- customBodyHtml: "<!---- ADS ---->
-<center>
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5457774416106917" crossorigin="anonymous" type="055a2e7ac553757db4acb38e-text/javascript"></script>
-<!-- MAINSSH -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-5457774416106917"
-     data-ad-slot="1914388644"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script type="055a2e7ac553757db4acb38e-text/javascript">
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
-</center>
-<!---- ADS ----> "
+ customHeadHtml: "<meta charset=\"UTF-8\"><another-tag />"
+ customBodyHtml: "<!---- ADS ----> "
   # Add your custom domain name, or remove the `cname` line if you don't have a domain
   # Uncomment the `baseUrl` line if you don't have a custom domain and add your repo name there
   cname: status.mainssh.com
