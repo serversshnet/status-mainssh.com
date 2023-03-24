@@ -311,7 +311,6 @@ sites:
    url: sgtcp.mainssh.xyz
 
 status-website:
- customHeadHtml: "<meta charset=\"UTF-8\"><another-tag />"
   # Add your custom domain name, or remove the `cname` line if you don't have a domain
   # Uncomment the `baseUrl` line if you don't have a custom domain and add your repo name there
   cname: status.mainssh.com
@@ -329,7 +328,8 @@ status-website:
       content: "dark light"
     - name: "robots"
       content: "noindex"
-  
+####head
+customHeadHtml: "<meta charset=\"UTF-8\"><another-tag />"
 # Upptime also supports notifications, assigning issues, and more
 # See https://upptime.js.org/docs/configuration
 workflowSchedule:
