@@ -1,7 +1,7 @@
 url: usdns.mainssh.xyz
-status: down
-code: 0
-responseTime: 0
-lastUpdated: 2023-07-23T16:11:31.679Z
+status: up
+code: 200
+responseTime: 89
+lastUpdated: 2023-07-23T16:32:59.384Z
 startTime: Mon Jan 16 2023 10:17:21 GMT+0000 (Coordinated Universal Time)
 generator: Upptime <https://github.com/upptime/upptime>
