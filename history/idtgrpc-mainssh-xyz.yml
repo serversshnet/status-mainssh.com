@@ -1,7 +1,7 @@
 url: idtgrpc.mainssh.xyz
-status: down
-code: 0
-responseTime: 0
-lastUpdated: 2023-09-05T16:15:38.965Z
+status: up
+code: 200
+responseTime: 196
+lastUpdated: 2023-09-05T16:52:43.532Z
 startTime: 2023-01-16T10:27:46.000Z
 generator: Upptime <https://github.com/upptime/upptime>
