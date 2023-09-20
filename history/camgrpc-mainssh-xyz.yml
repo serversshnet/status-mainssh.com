@@ -1,7 +1,7 @@
 url: camgrpc.mainssh.xyz
-status: down
-code: 0
-responseTime: 0
-lastUpdated: 2023-09-20T06:40:50.626Z
+status: up
+code: 200
+responseTime: 71
+lastUpdated: 2023-09-20T07:04:10.228Z
 startTime: 2023-01-16T10:19:32.000Z
 generator: Upptime <https://github.com/upptime/upptime>
