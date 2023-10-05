@@ -1,7 +1,7 @@
 url: frmgrpc.mainssh.xyz
-status: down
-code: 0
-responseTime: 0
-lastUpdated: 2023-10-05T05:00:05.740Z
+status: up
+code: 200
+responseTime: 381
+lastUpdated: 2023-10-05T05:13:56.476Z
 startTime: 2023-01-16T10:19:37.000Z
 generator: Upptime <https://github.com/upptime/upptime>
