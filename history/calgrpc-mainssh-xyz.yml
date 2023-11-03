@@ -1,7 +1,7 @@
 url: calgrpc.mainssh.xyz
-status: down
-code: 0
-responseTime: 0
-lastUpdated: 2023-11-03T13:27:26.055Z
+status: up
+code: 200
+responseTime: 69
+lastUpdated: 2023-11-03T14:19:19.617Z
 startTime: 2023-01-16T10:19:32.000Z
 generator: Upptime <https://github.com/upptime/upptime>
