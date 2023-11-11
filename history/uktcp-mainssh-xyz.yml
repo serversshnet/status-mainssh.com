@@ -1,7 +1,7 @@
 url: uktcp.mainssh.xyz
-status: down
-code: 0
-responseTime: 0
-lastUpdated: 2023-11-11T22:31:04.886Z
+status: up
+code: 200
+responseTime: 124
+lastUpdated: 2023-11-11T23:47:08.492Z
 startTime: 2023-01-16T10:19:26.000Z
 generator: Upptime <https://github.com/upptime/upptime>
