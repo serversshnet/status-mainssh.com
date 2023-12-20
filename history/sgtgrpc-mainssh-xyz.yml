@@ -1,7 +1,7 @@
 url: sgtgrpc.mainssh.xyz
-status: down
-code: 0
-responseTime: 0
-lastUpdated: 2023-12-20T07:40:21.771Z
+status: up
+code: 200
+responseTime: 231
+lastUpdated: 2023-12-20T08:30:09.401Z
 startTime: 2023-01-16T10:28:02.000Z
 generator: Upptime <https://github.com/upptime/upptime>
