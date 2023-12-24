@@ -1,7 +1,7 @@
 url: idlgrpc.mainssh.xyz
-status: down
-code: 0
-responseTime: 0
-lastUpdated: 2023-12-24T10:47:58.894Z
+status: up
+code: 200
+responseTime: 185
+lastUpdated: 2023-12-24T11:50:12.907Z
 startTime: 2023-01-16T10:27:51.000Z
 generator: Upptime <https://github.com/upptime/upptime>
