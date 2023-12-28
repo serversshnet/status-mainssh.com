@@ -1,7 +1,7 @@
 url: uslgrpc.mainssh.xyz
-status: down
-code: 0
-responseTime: 0
-lastUpdated: 2023-12-28T10:19:04.557Z
+status: up
+code: 200
+responseTime: 12
+lastUpdated: 2023-12-28T12:15:08.850Z
 startTime: 2023-01-16T10:17:35.000Z
 generator: Upptime <https://github.com/upptime/upptime>
