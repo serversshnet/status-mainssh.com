@@ -1,7 +1,7 @@
 url: sg2lgrpc.mainssh.xyz
-status: down
-code: 0
-responseTime: 0
-lastUpdated: 2024-01-04T15:38:59.744Z
+status: up
+code: 200
+responseTime: 233
+lastUpdated: 2024-01-04T16:12:27.745Z
 startTime: 2023-01-16T10:27:35.000Z
 generator: Upptime <https://github.com/upptime/upptime>
