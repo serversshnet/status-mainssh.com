@@ -1,7 +1,7 @@
 url: getws.mainssh.xyz
-status: down
-code: 0
-responseTime: 0
-lastUpdated: 2024-01-25T17:43:01.153Z
+status: up
+code: 200
+responseTime: 5
+lastUpdated: 2024-01-25T18:16:55.251Z
 startTime: 2023-01-16T10:19:21.000Z
 generator: Upptime <https://github.com/upptime/upptime>
