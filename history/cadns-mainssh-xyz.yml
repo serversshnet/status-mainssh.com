@@ -1,7 +1,7 @@
 url: cadns.mainssh.xyz
-status: down
-code: 0
-responseTime: 0
-lastUpdated: 2024-02-12T01:45:25.683Z
+status: up
+code: 200
+responseTime: 20
+lastUpdated: 2024-02-12T04:09:11.643Z
 startTime: 2023-01-16T10:17:22.000Z
 generator: Upptime <https://github.com/upptime/upptime>
