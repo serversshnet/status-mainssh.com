@@ -1,7 +1,7 @@
 url: sg3mgrpc.mainssh.xyz
-status: down
-code: 0
-responseTime: 0
-lastUpdated: 2024-02-19T08:48:34.183Z
+status: up
+code: 200
+responseTime: 229
+lastUpdated: 2024-02-19T09:25:12.403Z
 startTime: 2023-01-16T10:27:43.000Z
 generator: Upptime <https://github.com/upptime/upptime>
