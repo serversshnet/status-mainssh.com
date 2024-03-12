@@ -1,7 +1,7 @@
 url: frwg.mainssh.com
-status: down
-code: 0
+status: up
+code: 200
 responseTime: 0
-lastUpdated: 2024-03-12T16:17:22.875Z
+lastUpdated: 2024-03-12T16:44:27.233Z
 startTime: 2023-01-16T10:17:32.000Z
 generator: Upptime <https://github.com/upptime/upptime>
