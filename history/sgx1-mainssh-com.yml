@@ -1,7 +1,7 @@
 url: sgx1.mainssh.com
-status: down
-code: 0
-responseTime: 0
-lastUpdated: 2024-08-02T12:50:38.074Z
+status: up
+code: 200
+responseTime: 2
+lastUpdated: 2024-08-02T13:43:58.350Z
 startTime: 2023-01-16T10:19:18.000Z
 generator: Upptime <https://github.com/upptime/upptime>
