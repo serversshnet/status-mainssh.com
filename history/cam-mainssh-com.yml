@@ -1,7 +1,7 @@
 url: cam.mainssh.com
-status: down
-code: 0
-responseTime: 0
-lastUpdated: 2024-08-02T09:23:00.987Z
+status: up
+code: 200
+responseTime: 6
+lastUpdated: 2024-08-02T09:49:06.933Z
 startTime: 2023-01-16T10:17:37.000Z
 generator: Upptime <https://github.com/upptime/upptime>
